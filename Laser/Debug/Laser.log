@@ -1,0 +1,19 @@
+﻿Build started 16/10/2015 12:06:22 PM.
+     1>Project "C:\Users\Qiang\Desktop\UGVProject\Laser\Laser.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\Qiang\Desktop\UGVProject\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Laser001.cpp
+         Laser001.cpp
+     1>c:\users\qiang\desktop\ugvproject\laser\laser001.cpp(29): warning C4101: 'FileMapUGVControl': unreferenced local variable
+     1>c:\users\qiang\desktop\ugvproject\laser\laser001.cpp(28): warning C4101: 'FileMapXboxData': unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Qiang\Desktop\UGVProject\Debug\Laser.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib" ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Qiang\Desktop\UGVProject\Debug\Laser.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Qiang\Desktop\UGVProject\Debug\Laser.lib" /MACHINE:X86 Debug\EthernetClient.obj
+         Debug\SharedMemory.obj
+         Debug\SharedMemoryFcn.obj
+         Debug\Laser001.obj
+         Debug\LMS151.obj
+         Laser.vcxproj -> C:\Users\Qiang\Desktop\UGVProject\Debug\Laser.exe
+     1>Done Building Project "C:\Users\Qiang\Desktop\UGVProject\Laser\Laser.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.56
